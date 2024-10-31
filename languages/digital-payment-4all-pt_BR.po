@@ -1,0 +1,199 @@
+# Pagamentos digitais 4all for classipress.
+# Copyright (C) 2019 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the pagamentos-digitais-4all-for-classipress package.
+# 4all, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pagamentos-digitais-4all-for-classipress 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-07-17 13:42-0300\n"
+"PO-Revision-Date: 2019-07-17 13:51-0300\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"Last-Translator: \n"
+"Language: pt_BR\n"
+
+#. Author of the plugin/theme
+msgid "4all"
+msgstr "4all"
+
+#. Description of the plugin/theme
+msgid ""
+"Includes 4all as a payment gateway to theme classipress designed by AppThemes"
+msgstr ""
+"Inclui 4all como um gateway de pagamento para o tema classipress projetado "
+"por AppThemes"
+
+#. Plugin URI of the plugin/theme
+msgid "https://github.com/4alltecnologia/plugin_classipress.git"
+msgstr "https://github.com/4alltecnologia/plugin_classipress.git"
+
+#. Plugin Name of the plugin/theme
+msgid "Pagamentos Digitais 4all for classipress"
+msgstr "Pagamentos Digitais 4all for classipress"
+
+#: includes/class-digital-payment-4all.php:12
+#: includes/class-digital-payment-4all.php:13
+msgid "Pagamentos digitais 4all"
+msgstr "Pagamentos digitais 4all"
+
+#: includes/class-digital-payment-4all.php:19
+msgid "General"
+msgstr "Geral"
+
+#: includes/class-digital-payment-4all.php:20
+msgid ""
+"If you do not already have 4all merchant account, <a href=\"https://"
+"autocredenciamento.4all.com\" target=\"_blank\">please register in "
+"Production</a>."
+msgstr ""
+"Se você ainda não tem uma conta de comerciante 4all, <a href=\"https://"
+"autocredenciamento.4all.com\" target=\"_blank\">Por favor, registre-se</a>."
+
+#: includes/class-digital-payment-4all.php:23
+#: includes/class-digital-payment-4all.php:43
+msgid "Merchant key"
+msgstr "Chave de comerciante"
+
+#: includes/class-digital-payment-4all.php:26
+msgid ""
+"Please enter your merchantKey of production. This is needed to process the "
+"payment."
+msgstr ""
+"Por favor, insira o sua chave de comerciante de produção. Isso é necessário "
+"para processar o pagamento."
+
+#: includes/class-digital-payment-4all.php:27
+msgid ""
+"This is your private key to access the 4all gateway in the production "
+"environment"
+msgstr ""
+"Esta é sua chave privada para acessar o gateway 4all no ambiente de produção"
+
+#: includes/class-digital-payment-4all.php:33
+msgid "Sandbox"
+msgstr "Sandbox"
+
+#: includes/class-digital-payment-4all.php:34
+msgid ""
+"If enabled, sandbox mode will send your transactions to the homolog "
+"environment."
+msgstr ""
+"Se ativado, o modo sandbox enviará suas transações para o ambiente homolog."
+
+#: includes/class-digital-payment-4all.php:37
+msgid "Enable"
+msgstr "Ativar"
+
+#: includes/class-digital-payment-4all.php:40
+msgid "Enable/Disable the sandbox mode"
+msgstr "Ativar/Desativar o modo sandbox"
+
+#: includes/class-digital-payment-4all.php:46
+msgid ""
+"Please enter your merchantKey of homolog. This is needed to process the "
+"payment."
+msgstr ""
+"Por favor, digite sua chave de comerciante de homolog. Isso é necessário "
+"para processar o pagamento."
+
+#: includes/class-digital-payment-4all.php:47
+msgid ""
+"This is your private key to access the 4all gateway in the homolog "
+"environment"
+msgstr ""
+"Esta é sua chave privada para acessar o gateway 4all no ambiente de homolog"
+
+#: includes/class-digital-payment-4all.php:68
+msgid "Card holder name is a required field"
+msgstr "O nome do titular do cartão é um campo obrigatório"
+
+#: includes/class-digital-payment-4all.php:70
+msgid "Invalid holder name"
+msgstr "Nome do titular inválido"
+
+#: includes/class-digital-payment-4all.php:74
+msgid "Card number is a required field"
+msgstr "Número do cartão é um campo obrigatório"
+
+#: includes/class-digital-payment-4all.php:76
+msgid "Invalid card number"
+msgstr "Número de cartão inválido"
+
+#: includes/class-digital-payment-4all.php:80
+msgid "Buyer document is a required field"
+msgstr "O CPF do comprador é um campo obrigatório"
+
+#: includes/class-digital-payment-4all.php:82
+msgid "Invalid buyer document"
+msgstr "Documento do comprador inválido"
+
+#: includes/class-digital-payment-4all.php:86
+msgid "Expiration date is a required field"
+msgstr "A data de expiração é um campo obrigatório"
+
+#: includes/class-digital-payment-4all.php:88
+msgid "Invalid expiration date"
+msgstr "Data de expiração inválida"
+
+#: includes/class-digital-payment-4all.php:92
+msgid "Security code is a required field"
+msgstr "Código de segurança é um campo obrigatório"
+
+#: includes/class-digital-payment-4all.php:94
+msgid "Invalid security code"
+msgstr "Código de segurança inválido"
+
+#: includes/form-template.php:38
+msgid "Transaction failed:"
+msgstr "Falha na transação:"
+
+#: includes/form-template.php:39
+msgid "Sorry, something goes wrong with your transaction. Please, try again."
+msgstr ""
+"Desculpe, algo está errado com sua transação. Por favor, tente novamente."
+
+#: includes/form-template.php:47
+msgid "Name of the card holder (same as the card)"
+msgstr "Nome do portador do cartão (igual no cartão)"
+
+#: includes/form-template.php:51
+msgid "CPF of the bearer"
+msgstr "CPF do portador"
+
+#: includes/form-template.php:55
+msgid "Card number"
+msgstr "Número do cartão"
+
+#: includes/form-template.php:66
+msgid "There are no registered payment methods."
+msgstr "Não há métodos de pagamento registrados."
+
+#: includes/form-template.php:71
+msgid "Expiration date"
+msgstr "Data de validade"
+
+#: includes/form-template.php:75
+msgid "Security code"
+msgstr "Código de segurança"
+
+#: includes/form-template.php:79
+msgid "Installment"
+msgstr "Parcelas"
+
+#: includes/form-template.php:88
+msgid "x of R$"
+msgstr "x de R$"
+
+#: includes/form-template.php:95
+msgid "&#9679; Approximated values"
+msgstr "&#9679; Valores aproximados"
+
+#: includes/form-template.php:104
+msgid "Pay"
+msgstr "Pagar"

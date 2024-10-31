@@ -1,0 +1,186 @@
+# Pagamentos digitais 4all for classipress.
+# Copyright (C) 2019 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the pagamentos-digitais-4all-for-classipress package.
+# 4all, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pagamentos-digitais-4all-for-classipress 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-07-17 13:42-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Thiago Siqueira Mariano de Souza <thiago.souza@4all.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#. Author of the plugin/theme
+msgid "4all"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Includes 4all as a payment gateway to theme classipress designed by AppThemes"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://github.com/4alltecnologia/plugin_classipress.git"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Pagamentos Digitais 4all for classipress"
+msgstr ""
+
+#: includes/class-digital-payment-4all.php:12
+#: includes/class-digital-payment-4all.php:13
+msgid "Pagamentos digitais 4all"
+msgstr ""
+
+#: includes/class-digital-payment-4all.php:19
+msgid "General"
+msgstr ""
+
+#: includes/class-digital-payment-4all.php:20
+msgid ""
+"If you do not already have 4all merchant account, <a href=\"https://"
+"autocredenciamento.4all.com\" target=\"_blank\">please register in "
+"Production</a>."
+msgstr ""
+
+#: includes/class-digital-payment-4all.php:23
+#: includes/class-digital-payment-4all.php:43
+msgid "Merchant key"
+msgstr ""
+
+#: includes/class-digital-payment-4all.php:26
+msgid ""
+"Please enter your merchantKey of production. This is needed to process the "
+"payment."
+msgstr ""
+
+#: includes/class-digital-payment-4all.php:27
+msgid ""
+"This is your private key to access the 4all gateway in the production "
+"environment"
+msgstr ""
+
+#: includes/class-digital-payment-4all.php:33
+msgid "Sandbox"
+msgstr ""
+
+#: includes/class-digital-payment-4all.php:34
+msgid ""
+"If enabled, sandbox mode will send your transactions to the homolog "
+"environment."
+msgstr ""
+
+#: includes/class-digital-payment-4all.php:37
+msgid "Enable"
+msgstr ""
+
+#: includes/class-digital-payment-4all.php:40
+msgid "Enable/Disable the sandbox mode"
+msgstr ""
+
+#: includes/class-digital-payment-4all.php:46
+msgid ""
+"Please enter your merchantKey of homolog. This is needed to process the "
+"payment."
+msgstr ""
+
+#: includes/class-digital-payment-4all.php:47
+msgid ""
+"This is your private key to access the 4all gateway in the homolog "
+"environment"
+msgstr ""
+
+#: includes/class-digital-payment-4all.php:68
+msgid "Card holder name is a required field"
+msgstr ""
+
+#: includes/class-digital-payment-4all.php:70
+msgid "Invalid holder name"
+msgstr ""
+
+#: includes/class-digital-payment-4all.php:74
+msgid "Card number is a required field"
+msgstr ""
+
+#: includes/class-digital-payment-4all.php:76
+msgid "Invalid card number"
+msgstr ""
+
+#: includes/class-digital-payment-4all.php:80
+msgid "Buyer document is a required field"
+msgstr ""
+
+#: includes/class-digital-payment-4all.php:82
+msgid "Invalid buyer document"
+msgstr ""
+
+#: includes/class-digital-payment-4all.php:86
+msgid "Expiration date is a required field"
+msgstr ""
+
+#: includes/class-digital-payment-4all.php:88
+msgid "Invalid expiration date"
+msgstr ""
+
+#: includes/class-digital-payment-4all.php:92
+msgid "Security code is a required field"
+msgstr ""
+
+#: includes/class-digital-payment-4all.php:94
+msgid "Invalid security code"
+msgstr ""
+
+#: includes/form-template.php:38
+msgid "Transaction failed:"
+msgstr ""
+
+#: includes/form-template.php:39
+msgid "Sorry, something goes wrong with your transaction. Please, try again."
+msgstr ""
+
+#: includes/form-template.php:47
+msgid "Name of the card holder (same as the card)"
+msgstr ""
+
+#: includes/form-template.php:51
+msgid "CPF of the bearer"
+msgstr ""
+
+#: includes/form-template.php:55
+msgid "Card number"
+msgstr ""
+
+#: includes/form-template.php:66
+msgid "There are no registered payment methods."
+msgstr ""
+
+#: includes/form-template.php:71
+msgid "Expiration date"
+msgstr ""
+
+#: includes/form-template.php:75
+msgid "Security code"
+msgstr ""
+
+#: includes/form-template.php:79
+msgid "Installment"
+msgstr ""
+
+#: includes/form-template.php:88
+msgid "x of R$"
+msgstr ""
+
+#: includes/form-template.php:95
+msgid "&#9679; Approximated values"
+msgstr ""
+
+#: includes/form-template.php:104
+msgid "Pay"
+msgstr ""

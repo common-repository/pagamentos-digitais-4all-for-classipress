@@ -1,0 +1,30 @@
+{
+  "name": "pagamentos-digitais-4all-for-classipress",
+  "version": "1.0.0",
+  "description": "**Contributors:** 4all <br/> **Tags:** classipress, 4all, payment<br/> **Requires at least:** 4.0<br/> **Tested up to:** 5.2<br/> **Stable tag:** 1.0.0<br/> **License:** GPLv2 or later<br/> **License URI:** http://www.gnu.org/licenses/gpl-2.0.html<br/>",
+  "main": "Gruntfile.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/4alltecnologia/plugin_classipress.git"
+  },
+  "keywords": [
+    "classipress",
+    "appThemes",
+    "4all",
+    "pagamentos",
+    "payment",
+    "gateway",
+    "digitais",
+    "digital"
+  ],
+  "author": "4all",
+  "license": "GPLv2",
+  "bugs": {
+    "url": "https://github.com/4alltecnologia/plugin_classipress/issues"
+  },
+  "homepage": "https://github.com/4alltecnologia/plugin_classipress#readme",
+  "devDependencies": {
+    "grunt": "^1.0.3",
+    "grunt-pot": "^0.3.0"
+  }
+}
